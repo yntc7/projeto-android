@@ -9,12 +9,12 @@
     src: url('../fontes/IDroid.otf') format(opentype);
 }
     :root {
-        --cor0:#c5ebd6;
-        --cor1:#84e0c4;
+        --cor0:#98d2e4;
+        --cor1:#81d4e9;
         --cor2:#3ddbc6;
         --cor3:#3dc9db;
         --cor4:#3d8fdb;
-        --cor5:#2e217a;
+        --cor5:#21407a;
 
         --fonte-padrao: Arial, Helvetica, sans-serif;
         --fonte-destaque: 'idroid', 'micro', sans-serif;
@@ -80,7 +80,7 @@
        font-family: 'idroid', Arial, Helvetica, sans-serif;
        font-weight: lighter;
        font-size: 1.4em;
-       color: #2fa03a;
+       color: var(--cor5);
        background-image: linear-gradient(to right, var(--cor0), transparent);
     }
     main {
