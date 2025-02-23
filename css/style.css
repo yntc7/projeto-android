@@ -148,6 +148,8 @@
         text-align: center;
         text-indent: 20px;
         text-align: justify;
+        margin: auto;
+        padding: auto;
     }
     aside {
         background-color: var(--cor0);
